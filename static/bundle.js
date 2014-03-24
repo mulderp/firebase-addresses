@@ -53,7 +53,7 @@ module.exports = addresses
 },{"client-backfire":11}],4:[function(require,module,exports){
 var Backbone = require("backbone");
 
-var Address = Backbone.Firebase.Model.extend({
+var Address = Backbone.Model.extend({
 
   defaults: {
     "name": "empty",
