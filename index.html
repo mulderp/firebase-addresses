@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A small address book demo.">
+    <title>Firebase Address Demo</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/main-grid-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/main-grid.css">
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/marketing.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <script src="./static/bundle.js"></script>
+  <script>
+    var app = require("app");
+  </script>
+  <style>
+    .content {
+      padding-top: 120px;
+      width: 50%;
+      margin: 0 auto;
+    }
+  </style>
+  </head>
+<body>
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Address book</a>
+
+        <ul>
+            <li class="pure-menu-selected"><a href="#">Home</a></li>
+            <li><a href="#addAdress">New Address</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <div id="newForm">
+    </div>
+
+    <div id="preview"></div>
+</div>
+</body>
+</html>
