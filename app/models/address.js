@@ -1,6 +1,6 @@
 var Backbone = require("backbone");
 
-var Address = Backbone.Firebase.Model.extend({
+var Address = Backbone.Model.extend({
 
   defaults: {
     "name": "empty",
